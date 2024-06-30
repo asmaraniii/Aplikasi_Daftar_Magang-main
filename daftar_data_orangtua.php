@@ -66,13 +66,13 @@ if (isset($_POST['submit'])) {
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
-                                            <label class="control-label">Nama Ayah</label>
+                                            <label class="control-label">Nama Pembimbing</label>
                                             <input type="text" class="form-control" name="father_name" placeholder="Masukan Nama Lengkap..." required value="<?php isset($_SESSION['father_name'])  ?  print($_SESSION['father_name']) : ""; ?>" autofocus>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <!-- <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group label-floating">
                                             <label class="control-label">Tempat lahir Ayah</label>
@@ -94,7 +94,7 @@ if (isset($_POST['submit'])) {
                                             <input type="text" class="form-control" name="father_job" placeholder="Masukan Nama Pekerjaan..." required value="<?php isset($_SESSION['father_job'])  ?  print($_SESSION['father_job']) : ""; ?>">
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="row">
                                     <div class="col-md-12">
@@ -111,10 +111,10 @@ if (isset($_POST['submit'])) {
 
 
 
-                            <fieldset class="the-fieldset" style="margin-top: 20px">
+                            <!-- <fieldset class="the-fieldset" style="margin-top: 20px">
                                 <legend class="the-legend"><b>Data Ibu</b></legend>
-                                <!-- Father data form input -->
-                                <!-- Mother data form input -->
+                                <!-- Father data form input 
+                                <!-- Mother data form input 
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group label-floating">
@@ -148,7 +148,7 @@ if (isset($_POST['submit'])) {
                                     </div>
                                 </div>
 
-                                <!-- END Mother data form input -->
+                                <!-- END Mother data form input 
 
                                 <div class="row">
                                     <div class="col-md-12">
@@ -158,7 +158,7 @@ if (isset($_POST['submit'])) {
                                         </div>
                                     </div>
                                 </div>
-                            </fieldset>
+                            </fieldset> -->
 
 
                             <?php
