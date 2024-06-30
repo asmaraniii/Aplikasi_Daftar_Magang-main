@@ -135,7 +135,8 @@ if (isset($_POST['submit'])) {
 							<span class="signup"><a href="daftar_akun.php" class="btn btn-primary"><b style="font-family: monospace;">Daftar</b></a></span>
 						</div>
 						<form class="form-horizontal" method="POST" action="">
-							<h3 class="title"><img src="assets/img/logo.jpg" alt="" style="max-width: 90%;">Login Akun</h3>
+							<!--ganti logo-->
+							<h3 class="title"><img src="assets/img/logo_diskominfo.jpg" alt="" style="max-width: 90%;">Login Akun</h3>
 							<div class="form-group">
 								<span class="input-icon"><i class="fa fa-envelope"></i></span>
 								<input class="form-control" type="email" name="email" placeholder="Email Address">
