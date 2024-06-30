@@ -109,13 +109,15 @@ if (isset($_POST['submit'])) {
 	                <form class="form-signin" method="post" action="">
 		                <input type="text" class="form-control" name="email" placeholder="Email" required autofocus>
 		                <input type="password" class="form-control" name="password" placeholder="Password" required>
-		                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">
-		                    Sign in</button>
-		                <label class="checkbox pull-left">
+		                <!--ganti jadi LOGIN-->
+				<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">
+		                    LOGIN</button>
+				<!--hide remember me & need help-->
+		                <!--<label class="checkbox pull-left">
 		                    <input type="checkbox" value="remember-me">
 		                    Remember me
 		                </label>
-		                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+		                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>-->
 	                </form>
 	            </div>
 	            <a href="index.php" class="text-center new-account">Kembali </a>
