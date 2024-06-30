@@ -101,7 +101,8 @@ class PDF_MC_Table extends FPDF
 	function Header()
 	{
 		// Logo
-		$this->Image('../../assets/img/logo.jpg', 10, 10, 25);
+		//ganti logo
+		$this->Image('../../assets/img/logo_diskominfo.png', 10, 10, 25);
 		// Arial bold 15
 		$this->SetFont('Times', 'B', 20);
 		// Move to the right
@@ -111,7 +112,8 @@ class PDF_MC_Table extends FPDF
 
 		$this->Ln();
 		$this->SetFont('Arial', 'B', 12);
-		$this->Cell(190, 5, 'Dinas Komunikasi Informatika dan Statistik', 0, 0, 'C');
+		//edit teks
+		$this->Cell(190, 5, 'Dinas Komunikasi, Informatika, Statistik dan Persandian', 0, 0, 'C');
 		// Line break
 
 		$this->Line(10, 37, 210 - 10, 37);
